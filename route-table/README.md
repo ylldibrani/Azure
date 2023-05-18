@@ -20,6 +20,7 @@ Propagate gateway routes is used when you have to Move On-premises routes to the
 After deployment process is finished and Route Table is ready, go to Route Table created and select Routes.
 Click Add to add a new rule.
 ![img.png](img.png)
+
 Destination IP addresses/CIDR ranges - is the ip range of subnet where the traffic is going to be routed after it goes from Virtual Appliance VM so in this case we are going to route traffic from subnet1 to subnet2 and we add subnet2 ip range.
 
 Next hop type - is the type of how the routing will be done, in this case we are using Virtual Appliance (firewall VM).
