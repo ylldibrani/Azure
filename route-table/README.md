@@ -24,7 +24,7 @@ After deployment process is finished and Route Table is ready, go to Route Table
 
 Click Add to add a new rule.
 
-![img.png](img.png)
+![img.png](images/img2.png)
 
 Destination IP addresses/CIDR ranges - is the ip range of subnet where the traffic is going to be routed after it goes from Virtual Appliance VM so in this case we are going to route traffic from subnet1 to subnet2 and we add subnet2 ip range.
 
