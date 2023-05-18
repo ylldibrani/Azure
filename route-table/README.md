@@ -14,13 +14,18 @@ Let's configure our Route Table in Azure
 First create Route Table in Azure
 Choose resource group and add name
 ![img.png](images/img1.png)
+
 Propagate gateway routes is used when you have to Move On-premises routes to the network interfaces in associated subnets to Azure.
 
 After deployment process is finished and Route Table is ready, go to Route Table created and select Routes.
 Click Add to add a new rule.
 ![img.png](img.png)
 Destination IP addresses/CIDR ranges - is the ip range of subnet where the traffic is going to be routed after it goes from Virtual Appliance VM so in this case we are going to route traffic from subnet1 to subnet2 and we add subnet2 ip range.
+
 Next hop type - is the type of how the routing will be done, in this case we are using Virtual Appliance (firewall VM).
+
 Next hop address - is the private ip address of the VM which will route traffic to subnet2 after accepts from subnet1.
+
 Click Add and now the subnet1 traffic will route to VM firewall and then it will send it to subnet2.
+
 Please also ensure the Virtual Appliance VM has IP forwarding enabled
