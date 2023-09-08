@@ -1,4 +1,0 @@
-key                  = "hub-connections.tfstate"
-resource_group_name  = "rg-tfstate-hub-001"
-storage_account_name = "sttaastfstatehub359"
-container_name       = "tfstate"
