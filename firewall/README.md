@@ -51,5 +51,5 @@ On the Target FQDN's stage allow Microsoft website as is the default recommended
 
 Traffic to Target FQDNs is allowed from Firewall and accepted, it can be used in different use cases and different Target FQDNs depends on needs and rules.
 
-| :memo:        |   Note that all resources should be deployed in the same resource group   |
+| :memo:        |   Note that all networking resources (VNet, Firewall, Route Table) should be deployed in the same resource group   |
 |---------------|:--------------------------------------------------------------------------|
