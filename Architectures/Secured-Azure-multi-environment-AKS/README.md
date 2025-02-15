@@ -70,7 +70,9 @@ This solution is based on hub-and-spoke network topology with zero trust securit
 ## Potencial use cases
 
 Microservices-based applications handling sensitive client data.
+
 Media and streaming platforms.
+
 High-traffic portals requiring frequent access.
 ## References
 
