@@ -74,6 +74,7 @@ Microservices-based applications handling sensitive client data.
 Media and streaming platforms.
 
 High-traffic portals requiring frequent access.
+
 ## References
 
  - [Hub-and-spoke network topology](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke)
