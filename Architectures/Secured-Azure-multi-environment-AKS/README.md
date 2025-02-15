@@ -13,7 +13,7 @@ Since this infrastructure follows a Zero Trust security model there is a self-ho
 
 # Architecture
 
-![azure-secured-multi-env-infrastructure.png](architecture/azure-secured-multi-env-infrastructure.png)
+![azure-secured-multi-env-infrastructure.png](components/azure-secured-multi-env-infrastructure.png)
 
 # Components
 
