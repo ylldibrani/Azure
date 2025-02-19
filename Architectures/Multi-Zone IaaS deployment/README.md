@@ -41,13 +41,13 @@ Azure MySQL database flexible server is a managed relational database service of
 
 Azure Storage Account is a storage resource in Azure which can contain all storage objects (blob, queue, tables, files). Azure provides high availability for this resource depending on the selection when it's created. This storage account comes also with it's unique endpoints that are available in public internet also, connection is possible through HTTP/HTTPS.
 
-[storage-data.png](components/storage-data.png)
+![storage-data.png](components/storage-data.png)
 
 ### Platform Services
 
 Azure platform services play a critical role in securing, monitoring and managing infrastructure. Microsoft Entra ID is the backbone of IAM in Azure, it makes sure to securely authenticate and autherize users and applications and/or reosources. Azure Key Vault is essential for managing secrets, certificates and encryption keys. It allows applications to retrieve these credentials securely using managed identities. Azure Monitor provides observability into infrastructure and applications by collecting metrics, logs. Logs from various resources can be centralized in a Log Analytics Workspace that provides advanced query to troubleshoot resources. Azure Bastion Host eliminates the need for exposing virtual machines to public IPs by providing secure RDP and SSH access directly from the Azure portal.
 
-[platform.png](components/platform.png)
+![platform.png](components/platform.png)
 
 
 ## Scenario details
