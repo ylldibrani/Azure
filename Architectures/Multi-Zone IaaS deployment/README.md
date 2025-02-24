@@ -64,6 +64,6 @@ Digital library website/platform
 
 ## References
 
- - [Azure Zone Redundancy and availability zones](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Azure Zone Redundancy and availability zones](https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview?tabs=azure-cli#types-of-availability-zone-support)
  - [Cache asside pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
  - [LAW and design](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design)
